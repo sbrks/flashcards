@@ -7,8 +7,8 @@ body{
 
 .container {
 	width:1000px;
-	margin:10px auto;
-	padding: 10px;
+	margin:20px auto;
+	padding: 20px;
 	width:100%;
 }
 
@@ -16,33 +16,37 @@ body{
 	text-align:center;
 	color:#152C7E;
 	font-size: 32px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:20px;
 }
 
 
 #cardFront{
-	width:200px;
+	width:75%;
 	background: blue;
 	padding:20px;
-	margin:5px auto;
+	margin:15px auto;
 	text-align: center;
     height:300px;
     border-radius: 6px;
     border: 2px solid darkblue;
     box-shadow: 8px 8px 4px #888;
+    color: white;
 }
 
 
 #cardBack{
-	width:200px;
+	width:75%;
 	background: white;
 	padding:20px;
-	margin:5px auto;
+	margin:15px auto;
 	text-align: center;
     height:300px;
     border-radius: 6px;
     border: 2px solid darkblue;
     box-shadow: 8px 8px 4px #888;
+    color: blue;
 }
 
 .btn-info {
@@ -80,9 +84,10 @@ body{
 }
 
 #buttonContainer{
-	width: 200px;
+	padding: 10px;
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 /*
