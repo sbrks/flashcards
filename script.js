@@ -72,7 +72,6 @@
 //answer button event
 	$('.btn-info').click(function(event){
 
-			var answerButtonFunction;
 			//define the containers of the info we target
 			//var question = $('#cardFront p').text();
 			 var choices = $('#cardBack').text();

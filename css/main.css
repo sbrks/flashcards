@@ -1,6 +1,5 @@
-body{
+body {
 	font-family: 'Roboto', sans-serif;
-	background-image: url("images/bg.jpg");
 	background-color: lightblue;
 	color: #152C7E;
 }
@@ -10,6 +9,7 @@ body{
 	margin:20px auto;
 	padding: 20px;
 	width:100%;
+	background-color: lightblue;
 }
 
 .container h2{
