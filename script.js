@@ -1,5 +1,5 @@
 	$(document).ready(function(){
-		var questionSource=[
+		var questionSource =[
 	{
 		question: "Which of the following is NOT an acceptable way to create an object?",
 		choices: ["var myObject = new Object();", "var myObject = {}", "*myObject function() = {}", "function Object (prop1, prop2) { this.prop1=a; this.prop2=b}"]
@@ -30,6 +30,71 @@
 		question: "How do you find the square root of a number?",
 		choices: ["Math.pow(num1, num2)", "Math.square(num)", "Math.root(num)", "*Math.sqrt(num)"],
 		answer: [3]
+	},
+
+
+	{
+		question: "How do you create scope?",
+		choices: ["Declare a variable.", "Write a function.", "Use a callback function.", "Create an object."],
+		answer: [1]
+	},
+
+
+	{
+		question: "What is AJAX used for?",
+		choices: ["To request asynchronous events...", "As a front-end framework.", "To clean the kitchen.", "DOM manipulation."],
+		answer: [0]
+	},
+
+
+	{
+		question: "How do you create an object?",
+		choices: ["Brackets, key/value pairs", "XX", "XX", "XX"],
+		answer: [3]
+	},
+
+
+	{
+		question: "Why is the .Map function useful?",
+		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
+		answer: [3]
+	},
+
+
+	{
+		question: "What's the difference between a for and while loop?",
+		choices: ["For makes use of an iterator XX", "XX", "XX)", "XX)"],
+		answer: [3]
+	},
+
+	{
+		question: "Why is the .Map function useful?",
+		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
+		answer: [3]
+	},
+
+	{
+		question: "What is jQuery?",
+		choices: ["A back end library", "A library to make API calls", "A front-end framework.", "A CSS framework."],
+		answer: [3]
+	},
+
+	{
+		question: "How do you write a function in jQuery?",
+		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
+		answer: [3]
+	},
+
+	{
+		question: "Why would .forEach be preferable to a for loop?",
+		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
+		answer: [3]
+	},
+
+	{
+		question: "Why is the .Map function useful?",
+		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
+		answer: [3]
 	}
 
 ];
@@ -37,6 +102,9 @@
 	$('h2').addClass('animated bounceInDown');
 	$('a').addClass('animated bounceInUp');
 		
+
+
+
 
 	$('.btn-success').click(function(event){
 			//define the containers of the info we target
@@ -48,16 +116,15 @@
 			var sourceLength = questionSource.length;
 			var randomNumber= Math.floor(Math.random()*sourceLength);
 			//set a new quote
-			for(i=0; i<=sourceLength; i++){
-			var newQuestionText = questionSource[randomNumber].question;
-			var newQuestionChoices = questionSource[randomNumber].choices;
-			//console.log(newQuoteText,newQuoteGenius);
-      var timeAnimation = 500;
+	for(i=0; i<=sourceLength; i++){
+	var newQuestionText = questionSource[randomNumber].question;
+	//var newQuestionChoices = questionSource[randomNumber].choices;
+      var timeAnimation = 400;
       var cardFront = $('#cardFront');
       //fade out animation with callback
       cardFront.fadeOut(timeAnimation, function(){
         cardFront.html('');
-				cardFront.append('<p>'+newQuestionText+'</p>' + newQuestionChoices +'</p>'); 
+				cardFront.append('<p>'+newQuestionText+'</p>'); 
         
         //fadein animation.
         cardFront.fadeIn(timeAnimation);
@@ -68,6 +135,21 @@
 	
 	});//end questionButton function
 
+/*
+var randomNumber = Math.floor(Math.random()*questionSource.length);
+var selectedQuestion = questionSource[randomNumber].question;
+console.log(selectedQuestion);
+
+var selectedAnswer = function () {
+	var x = selectedQuestion.indexOf;
+	return questionSource.x.choice;
+
+};
+
+
+console.log(selectedAnswer);
+
+*/
 
 //answer button event
 	$('.btn-info').click(function(event){
@@ -84,7 +166,6 @@
 			for(i=0; i<=sourceLength; i++){
 			//var newQuestionText = questionSource[randomNumber].question;
 			var newQuestionChoices = questionSource[randomNumber].choices;
-			//console.log(newQuoteText,newQuoteGenius);
       var timeAnimation = 500;
       var cardBack = $('#cardBack');
       //fade out animation with callback

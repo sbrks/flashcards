@@ -1,0 +1,51 @@
+One deck of cards (with answer showing)
+
+New card shows question
+
+Click 'answer' button to show answer 
+
+Card flips over and reveals answer
+
+Click 'new card' button
+
+New card shows question
+
+Click 'answer' button to show answer
+
+Card flips over and reveals answer
+
+
+
+Questions for Ilias
+
+Random question generated in the 'question' function
+Need not random answer (the answer corresponding with that question) to appear in 'answer' function (right now it's the same function as the random question generator, but selecting the choices )
+-->can I create a global variable for the random question that gets selected?
+-->and then using that variable locate the answer property corresponding to that question's index?
+
+
+To Do
+- Refactor so all functions are defined globally and called in the document.ready function
+- Re-write answer function so not a random answer appears but the answer to the random question
+- Form to monitor progress
+- ReadMe file
+- Host on game site
+- Push all the github
+
+
+Click 'new question' button
+- Random question appears
+Click answer
+- Card flips
+-Answer appears
+Click 'new question' button
+- New random question appears
+...
+
+Click 'reset' game
+
+To Do
+- CSS - card, background, buttons, columns
+- HTML - two divs (one for each card) or no divs?
+- 
+
