@@ -1,68 +1,82 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	background-color: #0d47a1;
 	color: #152C7E;
 }
 
 .container {
+	font-family: 'Inconsolata', sans-serif;
 	width:1000px;
 	margin:20px auto;
 	padding: 20px;
 	width:100%;
-	background-color: #5253ff; /*#52a9ff*/
+	background-color: #43C6DB; /*#52a9ff*/
 	border: 2px solid #7FDBFF;
 	border-radius: 6px;
 }
 
 .container h2{
 	text-align:center;
-	color:#ffff52;
-	font-size: 40px;
+	color:#F28500;
+	font-size: 65px;
+	font-weight: bold;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom:20px;
 }
 
+.card-container {
+margin: 0 100px 0 100px;
+text-align: center;
+}
 
 #cardFront{
 	width:350px;
-	font-size: 24px;
-	background-color: #ff5252;
+	font-size: 20px;
+	background-color: #FFD700;
 	padding: 80px 10px 20px 10px;
-	margin: 15px 80px;
+	margin-right: 200px;
+	/*margin: 15px 80px;*/
 	text-align: center;
     height:400px;
-    border-radius: 6px;
-    border: 1px solid darkblue;
-    box-shadow: 8px 8px 4px #888;
+    border-radius: 2px;
+    /*border: 1px solid darkblue;
+    box-shadow: 8px 8px 4px #FCF5EB;*/
     color: white;
 }
 
 
-#cardBack{
+#cardBack {
 	width: 350px;
-	font-size: 24px;
-	background-color: #00db6e;
-	padding:80px 10px 20px 80px;
-	margin: 15px 140px;
-	text-align: center;
+	font-size: 20px;
+	background-color: #fff;
+	padding:60px 10px 20px 60px;
+	margin-left: 120px;
+	/*margin: 15px 80px;*/
+	text-align: left;
     height:400px;
-    border-radius: 6px;
-    border: 1px solid darkblue;
-    box-shadow: 8px 8px 4px #888;
-    color: white;
+    border-radius: 2px;
+    /*border: 1px solid darkblue;
+    box-shadow: 8px 8px 3px #FCF5EB;*/
+    color: gray;
+}
+
+#cardBack p {
+	width: 85%;
+	padding-top: 0px;
+
 }
 
 /*newcard button */
 .btn-success {
-	background-image: -webkit-linear-gradient(top,#5cb85c 0,#419641 100%);
-    background-image: -o-linear-gradient(top,#5cb85c 0,#419641 100%);
+	background-image: -webkit-linear-gradient(top,#DB5844 0,#419641 100%);
+    background-image: -o-linear-gradient(top,#DB5844 0,#419641 100%);
     background-image: -webkit-gradient(linear,left top,left bottom,from(#5cb85c),to(#419641));
-    background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+    background-image: linear-gradient(to bottom,#DB5844 0,#419641 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
-    border-color: #3e8f3e;
+    border-color: #DB5844;
 }
 
 /*answer button */
@@ -79,14 +93,14 @@ body {
 
 /*reset button*/
 .btn-danger {
-	background-image: -webkit-linear-gradient(top,#d9534f 0,#c12e2a 100%);
-    background-image: -o-linear-gradient(top,#d9534f 0,#c12e2a 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#d9534f),to(#c12e2a));
-    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+	background-image: -webkit-linear-gradient(top,#ff5252 0,#c12e2a 100%);
+    background-image: -o-linear-gradient(top,#ff5252 0,#c12e2a 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ff5252),to(#c12e2a));
+    background-image: linear-gradient(to bottom,#ff5252 0,#c12e2a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
-    border-color: #b92c28;
+    border-color: #ff5252;
 
 }
 
@@ -177,7 +191,7 @@ body {
 
 /*MEDIA QUERIES*/
 @media screen and(max-width:760px){
-	#questionButton,#addNew{
+	#cardFront, #cardBack{
 		display: block;
 	}
 }
