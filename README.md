@@ -1,25 +1,27 @@
 
 # flashcards
 
-I was interested in building a studying tool that would be effective, fun, and versatile. I decided to make a flashcard application so that users can quickly and easily test themselves on concepts they are currently learning. I have found that repetition of concepts that you are currently learning is a great way to advance learning and solidify understanding. These flashcards provide users with the ability to populate index cards on a subject they are interested in learning, and the program will ultimately help users memorize and learn in a fun, easy to use way.
+When you're learning something new, it can be forgotten pretty quickly unless it's brought back to the forefront of your mind repeatedly. You can do this haphazardly by immersing yourself in the learning process, like what we are doing!, where the new concepts you're learning will be brought up by chance occasionally. But memory research shows that an effective and efficient time for a new fact to be remembered is right before you were about to forget it. 
+
+Thus, I was interested in building a studying tool that implements this memory research and allows a user to easily make their own flashcards they can use to learn/reinforce concepts. These flashcards will provide users with the ability to populate index cards on a subject they are interested in learning, and the program will ultimately help users memorize and learn in a fun, easy to use way.
 
 
 
 
-//Technologies used
+## Technologies used
 
-HTML: Through this project I learned that HTML really is the backbone of the internet. The changes and development in Javascript and CSS almost invariably affected, or were affected by, HTML in some way. I relied heavily on divs/classes/ids and learned more about the important of all three when you want different elements on a page to do different things and look different ways.
+### HTML: Through this project I learned that HTML really is the backbone of the internet. The changes and development in Javascript and CSS almost invariably affected, or were affected by, HTML in some way. I relied heavily on divs/classes/ids and learned more about the important of all three when you want different elements on a page to do different things and look different ways.
 
-CSS/Bootstrap: This was my first shot at Bootstrap, and I'm happy with how easy it made working with two responsive columns. There are still some bugs to work out, such as when the screen is minimized, the 'answer' card doesn't align directly under the 'question' card, but is offset to the right by ~20px. In any case, I got a lot of CSS practice in, and began to (attempt to) implement a more class-based CSS approach, with mixed results.
+### CSS/Bootstrap: This was my first shot at Bootstrap, and I'm happy with how easy it made working with two responsive columns. There are still some bugs to work out, such as when the screen is minimized, the 'answer' card doesn't align directly under the 'question' card, but is offset to the right by ~20px. In any case, I got a lot of CSS practice in, and began to (attempt to) implement a more class-based CSS approach, with mixed results.
 
-Animate.css: I implemented a few animations, one on page load, and another when the 'New Question' and 'Answer' buttons are clicked to try to simulate a flipped-card look.
+### Animate.css: I implemented a few animations, one on page load, and another when the 'New Question' and 'Answer' buttons are clicked to try to simulate a flipped-card look.
 
-jQuery: I chose to work with jQuery primarily so I could learn how to use it, and through using it found it to be a faster, easier way to manipulate DOM elements than pure Javascript. That said, I need to learn more about how to declare jQuery functions -- right now the majority of my functions are all living under the 'New Question' button click function, which is living under the document.ready function. I would like to separate these functions out, but felt like I lacked the proficiency to name/call more piecemeal jQuery functions and making use of global variables.
-
-
+### jQuery: I chose to work with jQuery primarily so I could learn how to use it, and through using it found it to be a faster, easier way to manipulate DOM elements than pure Javascript. That said, I need to learn more about how to declare jQuery functions -- right now the majority of my functions are all living under the 'New Question' button click function, which is living under the document.ready function. I would like to separate these functions out, but felt like I lacked the proficiency to name/call more piecemeal jQuery functions and making use of global variables.
 
 
-//Original mockup sequence of player steps
+
+
+## Original mockup sequence of player steps
 One deck of cards (with answer showing)
 
 New card shows question
@@ -39,7 +41,7 @@ Card flips over and reveals answer
 Feature: user can add their own questions and answers, and test themselves/keep track of their progress
 
 
-//Issues & Unsolved Problems
+## Issues & Unsolved Problems
 
 1. toggleClass isn't working properly so that the answer is hidden when a new question card is clicked. I will fix this so that a user won't be able to see the answer unless they click the 'Answer' button.
 
