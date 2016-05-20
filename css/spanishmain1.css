@@ -1,0 +1,221 @@
+body {
+	font-family: 'Inconsolata', sans-serif;
+	background-color: #43C6DB;
+	color: #152C7E;
+}
+
+.container {
+	font-family: 'Lato', sans-serif;
+	width:1000px;
+	margin:20px auto;
+	padding: 20px;
+	width:100%;
+	background-color: #43C6DB; /*#52a9ff*/
+	border: 2px solid #7FDBFF;
+	border-radius: 6px;
+}
+
+.container h2{
+	text-align:center;
+	color:#FFD700;
+	font-size: 65px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:20px;
+}
+
+.card-container {
+margin: 0 100px 0 100px;
+text-align: center;
+}
+
+#cardFront{
+	width:350px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #FFD700;
+	padding: 80px 10px 20px 10px;
+	margin-right: 200px;
+	/*margin: 15px 80px;*/
+	text-align: center;
+    height:400px;
+    border-radius: 2px;
+    /*border: 1px solid darkblue;
+    box-shadow: 8px 8px 4px #FCF5EB;*/
+    color: white;
+}
+
+
+.cardBack1 {
+	width: 350px;
+	font-size: 20px;
+	background-color: #fff;
+	padding:60px 10px 20px 60px;
+	margin-left: 120px;
+	/*margin: 15px 80px;*/
+	text-align: left;
+    height:400px;
+    border-radius: 2px;
+    /*border: 1px solid darkblue;
+    box-shadow: 8px 8px 3px #FCF5EB;*/
+    color: gray;
+}
+
+
+.cardBack2 {
+	width: 350px;
+	font-size: 20px;
+	background-color: #fff;
+	padding:60px 10px 20px 60px;
+	margin-left: 120px;
+	/*margin: 15px 80px;*/
+	text-align: left;
+    height:400px;
+    border-radius: 2px;
+    /*border: 1px solid darkblue;
+    box-shadow: 8px 8px 3px #FCF5EB;*/
+    color: gray;
+}
+
+.cardBack p {
+	width: 85%;
+	padding-top: 0px;
+
+}
+
+/*newcard button */
+.btn-success {
+	background-image: -webkit-linear-gradient(top,#DB5844 0,#419641 100%);
+    background-image: -o-linear-gradient(top,#DB5844 0,#419641 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#5cb85c),to(#419641));
+    background-image: linear-gradient(to bottom,#DB5844 0,#419641 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #DB5844;
+}
+
+/*answer button */
+.btn-info {
+	background-image: -webkit-linear-gradient(top,#5bc0de 0,#2aabd2 100%);
+    background-image: -o-linear-gradient(top,#5bc0de 0,#2aabd2 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#5bc0de),to(#2aabd2));
+    background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #28a4c9;
+}
+
+/*reset button*/
+.btn-danger {
+	background-image: -webkit-linear-gradient(top,#ff5252 0,#c12e2a 100%);
+    background-image: -o-linear-gradient(top,#ff5252 0,#c12e2a 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ff5252),to(#c12e2a));
+    background-image: linear-gradient(to bottom,#ff5252 0,#c12e2a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #ff5252;
+
+}
+
+.buttonB {
+
+}
+
+#buttonContainer{
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+/*
+#questionButton{
+	width:200px;
+	margin: 0 auto;
+	border:2px solid #7e152c;
+	color: #a01a37;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #ed91a5;
+}
+
+#questionButton:hover{
+	cursor:pointer;
+	background:#91a5ed;
+	color: #fff;
+	border: 2px solid yellow;	
+}
+
+#questionButton:active{
+	cursor: pointer;
+}
+
+#questionButton{
+	display: inline-block;
+}
+
+
+#answerButton{
+	margin: 3px auto;
+	width: 100%;
+	border:2px solid #7e152c;
+	color: #a01a37;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #ed91a5;
+}
+
+#answerButton:hover{
+	cursor:pointer;
+	background:#91a5ed;
+	color: #fff;
+	border: 2px solid yellow;	
+}
+#answerButton:active{
+	cursor: pointer;
+}
+
+
+#answerButton{
+	display: inline-block;
+}
+
+#resetButton{
+	margin: 3px auto;
+	width: 100%;
+	border:2px solid #7e152c;
+	color: #a01a37;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #ed91a5;
+}
+
+#resetButton{
+	display: inline-block;
+}
+
+
+*/
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#cardFront, #cardBack{
+		display: block;
+	}
+}
+
+// random question with now random answer
+//use hidden class, so hide answer

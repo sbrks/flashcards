@@ -41,57 +41,57 @@ $('button').addClass('animated bounceInUp');
 
 	var questionSource =[
 	{
-		question: "Which of the following is NOT an acceptable way to create an object?",
+		question: "Conjugate 'viajar'.",
 		choices: ["var myObject = new Object();", "var myObject = {}", "*myObject function() = {}", "function Object (prop1, prop2) { this.prop1=a; this.prop2=b}"],
-		answer: "myObject function() = {}"
+		answer: "Viajo, viajas, viaja, viajamas, viajais, viajan."
 	},
 
 	{
-		question: "What does 'this' mean?",
+		question: "Name three modes of transportation.",
 		choices: ["'This' is a keyword that refers to the current object.", "'This' what?", "The name of the function being called.", "'This' is a jQuery method."],
-		answer: "'This' is a keyword that refers to the current object."
+		answer: "Autobus, coche, tren, avion, bicicleta, por pie."
 	},
 
 
 	{
-		question: "What does a for...in loop do?",
+		question: "How would you say 'I like your shoes?'",
 		choices: ["It's a method that iterates over an array", "*It's a method that traverses all enumerable properties of an object and its prototype chain.", "For every index value in array, it calls a specified function", "For...in? More like foreign."],
-		answer: "It's a method that traverses all enumerable properties of an object and its prototype chain."
+		answer: "Me gustan los zapatos."
 	},
 
 
 	{
-		question: "What does 'true || false' evaluate to?",
+		question: "Introduce yourself--state your name and where you're from.",
 		choices: ["True", "*False", "Null", "Undefined"],
-		answer: "*False"
+		answer: "Hola, me llamo (nombre). Soy de (ciudad)."
 	},
 
 
 	{
-		question: "How do you find the square root of a number?",
+		question: "Count from 1 to 10",
 		choices: ["Math.pow(num1, num2)", "Math.square(num)", "Math.root(num)", "*Math.sqrt(num)"],
-		answer: "*Math.sqrt(num)"
+		answer: "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nieve, diez."
 	},
 
 
 	{
-		question: "How do you create scope?",
+		question: "Count from 11 to 20",
 		choices: ["Declare a variable.", "Write a function.", "Use a callback function.", "Create an object."],
-		answer: "Write a function."
+		answer: "Once, doce, trece, catorce, quince, dieceseis, diecesiete, dieceocho, diecenieve, veinte."
 	},
 
 
 	{
-		question: "What is AJAX used for?",
+		question: "Name four colors",
 		choices: ["To request asynchronous events...", "As a front-end framework.", "To clean the kitchen.", "DOM manipulation."],
-		answer: "'This' is a keyword that refers to the current object."
+		answer: "Rojo, azul, verde, amarillo, naranja, marron, blanco."
 	},
 
 
 	{
-		question: "How do you create an object?",
+		question: "Conjugate tener",
 		choices: ["Brackets, key/value pairs", "XX", "XX", "XX"],
-		answer: "'This' is a keyword that refers to the current object."
+		answer: "Tengo, tienes, tiene, tieneis, tenemos, tienen."
 	},
 
 
@@ -112,48 +112,6 @@ $('button').addClass('animated bounceInUp');
 		question: "Why is the .Map function useful?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
 		answer: "It iterates through an array and performs a specified action on each index value."
-	},
-
-	{
-		question: "What is jQuery?",
-		choices: ["A back end library", "A library to make API calls", "A front-end Javascript library.", "A CSS framework."],
-		answer: "A front-end Javascript library."
-	},
-
-	{
-		question: "How do you write a function in jQuery?",
-		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "testanswer4"
-	},
-
-	{
-		question: "Why would .forEach be preferable to a for loop?",
-		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "testanswer5"
-	},
-
-	{
-		question: "Why is the .Map function useful?",
-		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "It iterates through an array and performs a specified action on each index value."
-	},
-
-	{
-		question: "What are the three most common data types in Javascript?",
-		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "Strings, numbers, booleans."
-	},
-
-		{
-		question: "What is an API?",
-		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "Application PP Interface; AKA a program's interface."
-	},
-
-		{
-		question: "How do you assign a variable?",
-		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "var = 'data'."
 	}
 
 ];
