@@ -87,28 +87,19 @@ a {
 }
 
 /*newcard button */
-.btn-success {
-	background-image: -webkit-linear-gradient(top,#DB5844 0,#419641 100%);
-    background-image: -o-linear-gradient(top,#DB5844 0,#419641 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#5cb85c),to(#419641));
-    background-image: linear-gradient(to bottom,#DB5844 0,#419641 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    background-repeat: repeat-x;
-    border-color: #DB5844;
-}
+
 
 /*answer button */
 .btn-info {
 	background-color: #FFD700;
-	background-image: -webkit-linear-gradient(top,#FFD700 0,#FFD700 100%);
+	/*background-image: -webkit-linear-gradient(top,#FFD700 0,#FFD700 100%);
     background-image: -o-linear-gradient(top,#FFD700 0,#FFD700 100%);
     background-image: -webkit-gradient(linear,left top,left bottom,from(#5bc0de),to(#2aabd2));
     background-image: linear-gradient(to bottom,#FFD700 0,#FFD700 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD700', endColorstr='#FFD700', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
-    border-color: #FFD700;
+    border-color: #FFD700;*/
 }
 
 /*spanish button*/

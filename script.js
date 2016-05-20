@@ -1,35 +1,3 @@
-	
-
-
-
-	/*
-
-//one attempt at assigning 
-var randomNumber = Math.floor(Math.random()*questionSource.length);
-var selectedQuestion = questionSource[randomNumber].question;
-console.log(selectedQuestion);
-
-var selectedAnswer = function () {
-	var x = selectedQuestion.indexOf;
-	return questionSource.x.choice;
-
-};
-
-
-console.log(selectedAnswer);
-
-
-
-//another stab at assigning corresponding answer to random question
-if (question) = X, questionSource[X].answer;
-
-if qnum === 1 {
-	return questionSource[0].answer
-}
-
-*/
-
-
 $(document).ready(function(){
 
 //toggle answer button
@@ -257,17 +225,25 @@ $('.btn-info').click(function(event) {
       var timeAnimation = 0;
       var cardBack = $('.cardBack1');
       //fade out animation with callback
-      cardBack.fadeOut(timeAnimation, function(){
-        cardBack.html('');
-				cardBack.append('<p>'+newAnswer+'</p>'); 
+      //cardBack.fadeOut(timeAnimation, function(){
+        //cardBack.html('');
+				//cardBack.append('<p>'+newAnswer+'</p>'); 
         
         //fadein animation.
         cardBack.addClass('animated flipInY');
         cardBack.fadeIn(timeAnimation);
-      });  
+      //});  
 			
 			break;
 		};//end for loop
+
+		//answer button function
+		var newAnswer = questionSource[randomNumber].answer;
+		var cardBack = $('.cardBack1');
+		$('.btn-info').click(function(event) {
+		cardBack.html('');
+				cardBack.append('<p>'+newAnswer+'</p>');
+		});
 	
 	});//end questionButton function
 
@@ -275,6 +251,8 @@ $('.btn-info').click(function(event) {
 	$('.btn-danger').click(function(event) {
 		document.location.href = '';
 	});
+
+
 
 
 
