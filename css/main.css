@@ -17,7 +17,7 @@ body {
 
 .container h2{
 	text-align:center;
-	color:#F28500;
+	color:#FFD700;
 	font-size: 65px;
 	font-weight: bold;
 	margin-left: auto;
@@ -46,7 +46,7 @@ text-align: center;
 }
 
 
-#cardBack {
+.cardBack1 {
 	width: 350px;
 	font-size: 20px;
 	background-color: #fff;
@@ -61,7 +61,23 @@ text-align: center;
     color: gray;
 }
 
-#cardBack p {
+
+.cardBack2 {
+	width: 350px;
+	font-size: 20px;
+	background-color: #fff;
+	padding:60px 10px 20px 60px;
+	margin-left: 120px;
+	/*margin: 15px 80px;*/
+	text-align: left;
+    height:400px;
+    border-radius: 2px;
+    /*border: 1px solid darkblue;
+    box-shadow: 8px 8px 3px #FCF5EB;*/
+    color: gray;
+}
+
+.cardBack p {
 	width: 85%;
 	padding-top: 0px;
 
@@ -101,6 +117,10 @@ text-align: center;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
     border-color: #ff5252;
+
+}
+
+.buttonB {
 
 }
 

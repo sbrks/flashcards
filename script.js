@@ -1,5 +1,8 @@
 	
-/*
+
+
+
+	/*
 
 //one attempt at assigning 
 var randomNumber = Math.floor(Math.random()*questionSource.length);
@@ -18,7 +21,7 @@ console.log(selectedAnswer);
 
 
 //another stab at assigning corresponding answer to random question
-if (newproperty-index?) = X, questionSource[X].answer;
+if (question) = X, questionSource[X].answer;
 
 if qnum === 1 {
 	return questionSource[0].answer
@@ -26,9 +29,17 @@ if qnum === 1 {
 
 */
 
+$(document).ready(function(){
 
-	$(document).ready(function(){
-		var questionSource =[
+	//css animations
+$('h2').addClass('animated bounceInDown');
+$('a').addClass('animated bounceInUp');
+$('button').addClass('animated bounceInUp'); 
+
+
+	// question object
+
+	var questionSource =[
 	{
 		question: "Which of the following is NOT an acceptable way to create an object?",
 		choices: ["var myObject = new Object();", "var myObject = {}", "*myObject function() = {}", "function Object (prop1, prop2) { this.prop1=a; this.prop2=b}"],
@@ -129,15 +140,19 @@ if qnum === 1 {
 
 ];
 
-	$('h2').addClass('animated bounceInDown');
-	$('a').addClass('animated bounceInUp');
-	$('button').addClass('animated bounceInUp'); //card flip not working
-		
 
+var question = $('#cardFront p').text();
+var sourceLength = questionSource.length;
+var randomNumber= Math.floor(Math.random()*sourceLength);
+var newQuestionText = questionSource[randomNumber].question;
+var timeAnimation = 80;
+var cardFront = $('#cardFront');
+
+	//random question generator
 	$('.btn-success').click(function(event){
 			//define the containers of the info we target
 			var question = $('#cardFront p').text();
-			var choices = $('#cardBack').text();
+			var choices = $('.cardBack').text();
 			//prevent browser's default action
 			event.preventDefault();
 			//getting a new random number to attach to a quote and setting a limit
@@ -145,12 +160,17 @@ if qnum === 1 {
 			var randomNumber= Math.floor(Math.random()*sourceLength);
 			//set a new quote
 	for(i=0; i<=sourceLength; i++){
+	var questionSelected = questionSource[randomNumber].answer;
+	//console.log(questionSelected);
+
 	var newQuestionText = questionSource[randomNumber].question;
+	var newAnswerText = questionSource.answer;
 	//var newQuestionChoices = questionSource[randomNumber].choices;
       var timeAnimation = 80;
       var cardFront = $('#cardFront');
+      var cardBack = $('.cardBack1');
       //fade out animation with callback
-      cardFront.fadeOut(timeAnimation, function(){
+      cardFront.fadeOut(timeAnimation, function (){
         cardFront.html('');
 				cardFront.append('<p>'+newQuestionText+'</p>'); 
         
@@ -158,23 +178,51 @@ if qnum === 1 {
        	cardFront.addClass('animated flipinY');
         cardFront.fadeIn(timeAnimation);
       });  
-			
+
+      //cardBack.fadeOut(timeAnimation, function () {
+      	cardBack.html('');
+      		cardBack.append('<p>' + questionSelected + '</p>');
+
+      		cardBack.addClass('animated flipinY');
+      		cardBack.fadeIn(timeAnimation);
+      //});
 			break;
-		};//end for loop
+		}//end for loop
 	
 	});//end questionButton function
 
 
+//new answer button 7:51pm
+/*
+$('.btn-info').click(function(event) {
 
-//answer button event
+	event.preventDefault();
+
+
+
+	var timeAnimation = 100;
+	var cardBack = $('#cardBack');
+
+	cardback.fadeOut(timeAnimation, function () {
+		cardBack.html('');
+			cardBack.append('<p>' + answervariable + '</p>');
+
+			cardBack.addClass('animated flipinY');
+			cardBack.fadeIn(timeAnimation);
+	})
+
+})
+
+*/
+//answer generator
 	$('.btn-info').click(function(event){
 
 			//define the containers of the info we target
 			//var question = $('#cardFront p').text();
-			 var choices = $('#cardBack').text();
+			 var choices = $('.cardBack1').text();
 			//prevent browser's default action
 			event.preventDefault();
-			//getting a new random number to attach to a quote and setting a limit
+			//getting a new random number to attach to a question and setting a limit
 			var sourceLength = questionSource.length;
 			var randomNumber= Math.floor(Math.random()*sourceLength);
 			//set a new quote
@@ -182,7 +230,7 @@ if qnum === 1 {
 			//var newQuestionText = questionSource[randomNumber].question;
 			var newAnswer = questionSource[randomNumber].answer;
       var timeAnimation = 100;
-      var cardBack = $('#cardBack');
+      var cardBack = $('.cardBack1');
       //fade out animation with callback
       cardBack.fadeOut(timeAnimation, function(){
         cardBack.html('');
@@ -202,7 +250,11 @@ if qnum === 1 {
 	$('.btn-danger').click(function(event) {
 		document.location.href = '';
 	});
-		
+
+
+$("btn btn-lg btn-info animated bounceInUp").click(function () {
+	$("cardBack1").toggleClass("cardBack2");
+});
 		
 });//end document ready
 
