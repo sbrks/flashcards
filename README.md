@@ -24,7 +24,7 @@ I chose to work with jQuery primarily so I could learn how to use it, and throug
 
 
 
-## Original mockup sequence of player steps
+## User Stories
 1. One deck of cards (face down)
 
 2. Click button, new card flips and shows question
@@ -37,6 +37,12 @@ I chose to work with jQuery primarily so I could learn how to use it, and throug
 
 6. User has option to test themselves with pre-populated Qs/As (Javascript, Spanish), or input their own data
 
+## Planned Features
+1. The working version where a user can generate their own content needs a lot of work. I have begun working on a separate form/localStorage project where users can enter questions and answers of their own. Once I solidify the logic I hope to connect this feature to the main site.
+
+2. Implement a calendar or reminder system to make use of 'spaced repition' learning
+
+3. Score/progress tracker so user can keep track of their progress
 
 ## Issues & Unsolved Problems
 
@@ -44,11 +50,7 @@ I chose to work with jQuery primarily so I could learn how to use it, and throug
 
 2. Version where user can generate their own content needs work. I have begun working on a separate form/localStorage project where users can enter questions and answers of their own. Once I solidify the logic I hope to connect this feature to the site.
 
-3. Eventually need to change the interface, and combine the two cards into one card, so that a user can click a button to see the front (question) and back (answer) to test themselves.
+3. Need to change the interface, and combine the two cards into one card, so that a user can click a button to see the front (question) and back (answer) to test themselves. Working version of this in progress. 
 
 4. Refactor code - everything now lives in document.ready - would like to clean up/define all functions outside this
-
-5. Need to implement a way for user to keep track of their score and progress
-
-6. Implement spaced repitition calendar
 
