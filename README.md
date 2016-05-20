@@ -1,9 +1,9 @@
 
 # flashcards
 
+I was interested in building a studying tool that would be effective, fun, and versatile. I decided to make a flashcard application so that users can quickly and easily test themselves on concepts they are currently learning. I have found that repetition of concepts that you are currently learning is a great way to advance learning and solidify understanding. These flashcards provide users with the ability to populate index cards on a subject they are interested in learning, and the program will ultimately help users memorize and learn in a fun, easy to use way.
 
 
-Repitition of concepts is a key component to learning and advancing skills in a topic of study. More speficially, repitition of concepts that are already understood is an effective way to learn. Any Deck provides users with the ability to populate index cards on a subject they are interested in learning better, and the program will help users memorize and implement in a fun, easy to use way.
 
 
 //Technologies used
@@ -35,6 +35,8 @@ New card shows question
 Click 'answer' button to show answer
 
 Card flips over and reveals answer
+
+Feature: user can add their own questions and answers, and test themselves/keep track of their progress
 
 
 //Issues & Unsolved Problems
