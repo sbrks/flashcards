@@ -179,13 +179,13 @@ var cardFront = $('#cardFront');
         cardFront.fadeIn(timeAnimation);
       });  
 
-      //cardBack.fadeOut(timeAnimation, function () {
+      cardBack.fadeOut(timeAnimation, function () {
       	cardBack.html('');
       		cardBack.append('<p>' + questionSelected + '</p>');
 
       		cardBack.addClass('animated flipinY');
       		cardBack.fadeIn(timeAnimation);
-      //});
+      });
 			break;
 		}//end for loop
 	
@@ -228,8 +228,8 @@ $('.btn-info').click(function(event) {
 			//set a new quote
 			for(i=0; i<=sourceLength; i++){
 			//var newQuestionText = questionSource[randomNumber].question;
-			var newAnswer = questionSource[randomNumber].answer;
-      var timeAnimation = 100;
+	  var newAnswer = questionSource[randomNumber].answer;
+      var timeAnimation = 1000;
       var cardBack = $('.cardBack1');
       //fade out animation with callback
       cardBack.fadeOut(timeAnimation, function(){
@@ -252,8 +252,9 @@ $('.btn-info').click(function(event) {
 	});
 
 
-$("btn btn-lg btn-info animated bounceInUp").click(function () {
+$("#").click(function () {
 	$("cardBack1").toggleClass("cardBack2");
+	console.log("hello!");
 });
 		
 });//end document ready
