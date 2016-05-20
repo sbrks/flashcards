@@ -205,7 +205,7 @@ $('.btn-info').click(function(event) {
 			for(i=0; i<=sourceLength; i++){
 			//var newQuestionText = questionSource[randomNumber].question;
 	  var newAnswer = questionSource[randomNumber].answer;
-      var timeAnimation = 1000;
+      var timeAnimation = 80;
       var cardBack = $('.cardBack1');
       //fade out animation with callback
       cardBack.fadeOut(timeAnimation, function(){

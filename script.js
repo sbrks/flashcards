@@ -29,7 +29,14 @@ if qnum === 1 {
 
 */
 
+
 $(document).ready(function(){
+
+//toggle answer button
+$('.testAnswer').on('click', function (event) {
+	$('.cardBack2').toggleClass('.cardBack1');
+	console.log("hello!");
+});
 
 	//css animations
 $('h2').addClass('animated bounceInDown');
@@ -247,7 +254,7 @@ $('.btn-info').click(function(event) {
 			for(i=0; i<=sourceLength; i++){
 			//var newQuestionText = questionSource[randomNumber].question;
 	  var newAnswer = questionSource[randomNumber].answer;
-      var timeAnimation = 1000;
+      var timeAnimation = 0;
       var cardBack = $('.cardBack1');
       //fade out animation with callback
       cardBack.fadeOut(timeAnimation, function(){
@@ -270,10 +277,7 @@ $('.btn-info').click(function(event) {
 	});
 
 
-$("#").click(function () {
-	$("cardBack1").toggleClass("cardBack2");
-	console.log("hello!");
-});
+
 		
 });//end document ready
 
