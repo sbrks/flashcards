@@ -20,8 +20,7 @@ This was my first shot at Bootstrap, and I'm happy with how easy it made working
 I implemented a few animations, one on page load, and another when the 'New Question' and 'Answer' buttons are clicked to try to simulate a flipped-card look.
 
 ### jQuery
-I chose to work with jQuery primarily so I could learn how to use it, and through using it found it to be a faster, easier way to manipulate DOM elements than pure Javascript. That said, I need to learn more about how to declare jQuery functions -- right now the majority of my functions are all living under the 'New Question' button click function, which is living under the document.ready function. I would like to separate these functions out, but felt like I lacked the proficiency to name/call more piecemeal jQuery functions and making use of global variables.
-
+I chose to work with jQuery primarily so I could learn how to use it, and through using it found it to be a faster, easier way to manipulate DOM elements than pure Javascript. That said, I need to learn more about how to declare jQuery functions -- right now the majority of my functions are all living under the 'New Question' button click function, which is living under the document.ready function. I would like to pull these functions out into a "functions spellbook" but didn't prioritize this and will need to refactor. 
 
 
 ## User Stories
