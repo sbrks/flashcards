@@ -10,14 +10,17 @@ Thus, I was interested in building a studying tool that implements this memory r
 
 ## Technologies used
 
-### HTML: Through this project I learned that HTML really is the backbone of the internet. The changes and development in Javascript and CSS almost invariably affected, or were affected by, HTML in some way. I relied heavily on divs/classes/ids and learned more about the important of all three when you want different elements on a page to do different things and look different ways.
+### HTML
+Through this project I learned that HTML really is the backbone of the internet. The changes and development in Javascript and CSS almost invariably affected, or were affected by, HTML in some way. I relied heavily on divs/classes/ids and learned more about the important of all three when you want different elements on a page to do different things and look different ways.
 
-### CSS/Bootstrap: This was my first shot at Bootstrap, and I'm happy with how easy it made working with two responsive columns. There are still some bugs to work out, such as when the screen is minimized, the 'answer' card doesn't align directly under the 'question' card, but is offset to the right by ~20px. In any case, I got a lot of CSS practice in, and began to (attempt to) implement a more class-based CSS approach, with mixed results.
+### CSS/Bootstrap
+This was my first shot at Bootstrap, and I'm happy with how easy it made working with two responsive columns. There are still some bugs to work out, such as when the screen is minimized, the 'answer' card doesn't align directly under the 'question' card, but is offset to the right by ~20px. In any case, I got a lot of CSS practice in, and began to (attempt to) implement a more class-based CSS approach, with mixed results.
 
-### Animate.css: I implemented a few animations, one on page load, and another when the 'New Question' and 'Answer' buttons are clicked to try to simulate a flipped-card look.
+### Animate.css
+I implemented a few animations, one on page load, and another when the 'New Question' and 'Answer' buttons are clicked to try to simulate a flipped-card look.
 
-### jQuery: I chose to work with jQuery primarily so I could learn how to use it, and through using it found it to be a faster, easier way to manipulate DOM elements than pure Javascript. That said, I need to learn more about how to declare jQuery functions -- right now the majority of my functions are all living under the 'New Question' button click function, which is living under the document.ready function. I would like to separate these functions out, but felt like I lacked the proficiency to name/call more piecemeal jQuery functions and making use of global variables.
-
+### jQuery
+I chose to work with jQuery primarily so I could learn how to use it, and through using it found it to be a faster, easier way to manipulate DOM elements than pure Javascript. That said, I need to learn more about how to declare jQuery functions -- right now the majority of my functions are all living under the 'New Question' button click function, which is living under the document.ready function. I would like to separate these functions out, but felt like I lacked the proficiency to name/call more piecemeal jQuery functions and making use of global variables.
 
 
 
