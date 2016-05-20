@@ -25,23 +25,17 @@ I chose to work with jQuery primarily so I could learn how to use it, and throug
 
 
 ## Original mockup sequence of player steps
-One deck of cards (with answer showing)
+1. One deck of cards (face down)
 
-New card shows question
+2. Click button, new card flips and shows question
 
-Click 'answer' button to show answer 
+3. User answers question on their own
 
-Card flips over and reveals answer
+4. Click 'answer' button, card flips over and reveals answer. 
 
-Click 'new card' button
+5. Repeat through set of randomly sorted cards. Click 'new card' button to repeat.
 
-New card shows question
-
-Click 'answer' button to show answer
-
-Card flips over and reveals answer
-
-Feature: user can add their own questions and answers, and test themselves/keep track of their progress
+6. User has option to test themselves with pre-populated Qs/As (Javascript, Spanish), or input their own data
 
 
 ## Issues & Unsolved Problems
@@ -55,4 +49,6 @@ Feature: user can add their own questions and answers, and test themselves/keep 
 4. Refactor code - everything now lives in document.ready - would like to clean up/define all functions outside this
 
 5. Need to implement a way for user to keep track of their score and progress
+
+6. Implement spaced repitition calendar
 
