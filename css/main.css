@@ -84,6 +84,13 @@ text-align: center;
 
 }
 
+#buttonContainer{
+	padding: 10px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
 /*newcard button */
 .btn-success {
 	background-image: -webkit-linear-gradient(top,#DB5844 0,#419641 100%);
@@ -108,8 +115,8 @@ text-align: center;
     border-color: #28a4c9;
 }
 
-/*reset button*/
-.btn-danger {
+/*spanish button*/
+.btn-primary {
 	background-image: -webkit-linear-gradient(top,#ff5252 0,#c12e2a 100%);
     background-image: -o-linear-gradient(top,#ff5252 0,#c12e2a 100%);
     background-image: -webkit-gradient(linear,left top,left bottom,from(#ff5252),to(#c12e2a));
@@ -121,16 +128,10 @@ text-align: center;
 
 }
 
-.buttonB {
 
 }
 
-#buttonContainer{
-	padding: 10px;
-	margin: 0 auto;
-	text-align: center;
 
-}
 
 /*
 #questionButton{

@@ -82,54 +82,54 @@ $('button').addClass('animated bounceInUp');
 
 
 	{
-		question: "What is AJAX used for?",
+		question: "What is Ajax?",
 		choices: ["To request asynchronous events...", "As a front-end framework.", "To clean the kitchen.", "DOM manipulation."],
-		answer: "'This' is a keyword that refers to the current object."
+		answer: "Ajax is the method of exchanging data with a server, and updating parts of a web page - without reloading the entire page."
 	},
 
 
 	{
-		question: "How do you create an object?",
+		question: "How do you create an object with an object literal? Give an example.",
 		choices: ["Brackets, key/value pairs", "XX", "XX", "XX"],
-		answer: "'This' is a keyword that refers to the current object."
+		answer: "var person = {firstName:'John', lastName:'Doe', age:50}."
 	},
 
 
 	{
 		question: "Why is the .Map function useful?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "It iterates through an array and performs a specified action on each index value."
+		answer: "It applies a given function to each element of an array, returning a list of results in the same order."
 	},
 
 
 	{
-		question: "What's the difference between a for and while loop?",
+		question: "What does a while loop do?",
 		choices: ["For makes use of an iterator XX", "XX", "XX)", "XX)"],
-		answer: "testanswer1"
+		answer: "The while statement executes a specified statement as long as the test condition evaluates to true."
 	},
 
 	{
 		question: "Why is the .Map function useful?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "It iterates through an array and performs a specified action on each index value."
+		answer: "It applies a given function to each element of an array, returning a list of results in the same order."
 	},
 
 	{
 		question: "What is jQuery?",
 		choices: ["A back end library", "A library to make API calls", "A front-end Javascript library.", "A CSS framework."],
-		answer: "A front-end Javascript library."
+		answer: "A Javascript library."
 	},
 
 	{
 		question: "How do you write a function in jQuery?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "testanswer4"
+		answer: "$('#my_div').myFunction();"
 	},
 
 	{
-		question: "Why would .forEach be preferable to a for loop?",
+		question: "How do you write a function in jQuery?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "testanswer5"
+		answer: "$('#my_div').myFunction();"
 	},
 
 	{
@@ -147,11 +147,11 @@ $('button').addClass('animated bounceInUp');
 		{
 		question: "What is an API?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "Application PP Interface; AKA a program's interface."
+		answer: "Application program interface; a set of routines, protocols, and tools for building software applications. An API specifies how software components should interact a."
 	},
 
 		{
-		question: "How do you assign a variable?",
+		question: "How do you declare a variable?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
 		answer: "var = 'data'."
 	}
