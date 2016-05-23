@@ -1,7 +1,7 @@
 
 # flashcards
 
-When you're learning something new, it can be forgotten pretty quickly unless it's brought back to the forefront of your mind repeatedly. You can do this haphazardly by immersing yourself in the learning process, like what we are doing!, where the new concepts you're learning will be brought up by chance occasionally. But memory research shows that an effective and efficient time for a new fact to be remembered is right before you were about to forget it. 
+When you're learning something new, it can be forgotten pretty quickly unless it's repeatedly brought back to the forefront of your mind. You can do this by immersing yourself in the learning process, like what we are doing!, where the new concepts you're learning will be brought up by chance. But memory research shows that an effective and efficient time for a new fact to be remembered is right before you were about to forget it. 
 
 Thus, I was interested in building a studying tool that implements this memory research and allows a user to easily make their own flashcards they can use to learn/reinforce concepts. These flashcards will provide users with the ability to populate index cards on a subject they are interested in learning, and the program will ultimately help users memorize and learn in a fun, easy to use way.
 
@@ -39,7 +39,7 @@ I chose to work with jQuery primarily so I could learn how to use it, and throug
 ## Planned Features
 1. The working version where a user can generate their own content needs a lot of work. I have begun working on a separate form/localStorage project where users can enter questions and answers of their own. Once I solidify the logic I hope to connect this feature to the main site.
 
-2. Implement a calendar or reminder system to make use of 'spaced repition' learning
+2. Implement a calendar or reminder system to make use of 'spaced repetition' learning
 
 3. Score/progress tracker so user can keep track of their progress
 
