@@ -37,8 +37,8 @@ $('button').addClass('animated bounceInUp');
 
 	{
 		question: "What does 'true || false' evaluate to?",
-		choices: ["True", "*False", "Null", "Undefined"],
-		answer: "*False"
+		choices: ["True", "False", "Null", "Undefined"],
+		answer: "True"
 	},
 
 
@@ -122,7 +122,7 @@ $('button').addClass('animated bounceInUp');
 		{
 		question: "What is an API?",
 		choices: ["It makes calls to the Google Maps API", "It's a cleaner way to write a for loop", "It concatenates arrays.", "It iterates through an array and performs a specified action on each index value."],
-		answer: "Application program interface; a set of routines, protocols, and tools for building software applications. An API specifies how software components should interact a."
+		answer: "Application program interface; a set of routines, protocols, and tools for building software applications. An API specifies how software components should interact."
 	},
 
 		{
