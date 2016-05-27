@@ -53,7 +53,7 @@ I chose to work with jQuery primarily so I could learn how to use it, and throug
 
 4. Refactor code - everything now lives in document.ready - would like to clean up/define all functions outside this
 
-## Deployed Games:
+## Deployed Games
 http://tinker-drydock-22773.bitballoon.com/
 
 http://scientist-otter-63765.bitballoon.com/
